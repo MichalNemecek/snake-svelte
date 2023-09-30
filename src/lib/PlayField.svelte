@@ -1,8 +1,8 @@
 <script lang="ts">
-
+	const PW: number = 16;
 </script>
 
-<svg width="256" height="256" class="mx-auto mt-3">
-	<rect x="0" y="0" height="512" width="512" fill="black"/>
+<svg width={PW*16} height={PW*16} class="mx-auto mt-3">
+	<rect x="0" y="0" height={PW*16} width={PW*16} fill="black"/>
 	<slot />
 </svg>
