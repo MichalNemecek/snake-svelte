@@ -1,4 +1,4 @@
-# Snake game written in Svelte + TypeScript
+# SVG Snake game written in Svelte + TypeScript
 controls: Arrow keys move the snake
 
 TODO:
